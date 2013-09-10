@@ -16,11 +16,11 @@
   <p>
   	Jag har oftast Chrome och Firefox öppna samtidigt, och använder ibland Opera.</p>
   <p>
-  	Normalt sett använder jag unix command line för sftp, ssh och slutligen vim för texhantering.<br>
+  	Normalt sett använder jag unix command line för sftp, ssh och slutligen vim för texthantering.<br>
   	Om det behövs mycket klipp och klistra i texten så använder jag programmet sublimetext. </p>
   <p>
   	Min lokala utvecklingsmiljö är en hemmagjord AMP stack.<br>
-  	Just nu: Apache 2.2.22 som kom med OSX, mysql 5.6.13 och php 5.5.2</p>
+  	Just nu: Apache 2.2.22 som kom med OSX, mysql 5.6.13 och php 5.5.3</p>
   <p>
 
   </p>
