@@ -1,0 +1,32 @@
+
+HTML & CSS: The Complete Reference
+
+Part I, Ch 1: Traditional HTML and XHTML
+Part II, Ch 4: Introduction to CSS
+..
+Part I, Ch 3: HTML and XHTML Element Reference
+Part II, Ch 5: CSS Syntax and Property Reference
+
+
+Beginning Web Programming with HTML, XHTML, and CSS
+
+Ch 1: Creating Structured Documents
+Ch 2: Links and Navigation
+Ch 7: Cascading Style Sheets
+Ch 8: More Cascading Style Sheets
+..
+Ch 9: Page Layout
+Ch 10: Design Issues
+..
+Ch 5: Forms
+
+
+Beginning PHP and MySQL 5, From Novice to Professional
+
+Ch 1: Introducing PHP (läs efter intresse)
+Ch 2: Configuring your environment (läs efter intresse)
+Ch 3: PHP Basics
+..
+Ch 4: Functions
+Ch 13: Working with HTML Forms
+Ch 18: Session Handlers
