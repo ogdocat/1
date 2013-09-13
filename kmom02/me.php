@@ -3,20 +3,20 @@ include("incl/config.php");
 $pageTitle = "Min Me-sida om mig själv";
 $pageId = "me";
 $pageStyle = null;
-
 ?>
 
 <?php include 'incl/header.php'; ?>
 
 <!-- Sidans/Dokumentets huvudsakliga innehåll -->
 <div id="content">
-<article class="justify border" style="width:80%">
+<article>
   <h1>htmlphp-me</h1>
 
   <figure class="right top">
     <img src="img/me.jpg" height="120">
     <figcaption>
-      <p>Bild på mig och okänd kvinna i Marseille.</p>
+      <p>Bild på mig och<br>
+      annan i Marseille.</p>
     </figcaption>
   </figure>
 
