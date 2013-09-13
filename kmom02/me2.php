@@ -2,7 +2,11 @@
 include("incl/config.php");
 $title = "Min Me-sida om mig själv";
 $pageId = "me";
-$pageStyle = null;
+$pageStyle = '
+html { background: #FB4664; } 
+body { background: #FDD; }
+a,p,h1,h2,h3,h4 { color: #781802; }
+';
 ?>
 
 <?php include 'incl/header.php'; ?>
@@ -22,7 +26,7 @@ $pageStyle = null;
   <p>
   	Hej! Mitt namn är Nils Boldt-Christmas.<br>
   	Jag bor tillsammans med min fru på södermalm i Stockholm, (icke hon på bilden),<br>
-    och om någon vecka även med en bebis.</p>
+  	och om någon vecka även med en bebis.</p>
   <p>
   	Sedan några år är jag tillbakaflyttad till Stockholm från Paris, där jag bodde 12 år<br>
   	och arbetade som fotograf.</p>

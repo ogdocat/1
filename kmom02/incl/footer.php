@@ -1,6 +1,4 @@
 <!-- Footer -->
-<div id="footer">
-<hr>
 <footer id="bottom">
   <p>Verktyg:
   <a href="http://validator.w3.org/check/referer">HTML5</a>  
@@ -18,6 +16,5 @@
   <a href="http://php.net/manual/en/index.php">PHP</a> 
   </p>
 </footer>
-</div>
 </body>
 </html> 

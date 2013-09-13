@@ -17,7 +17,7 @@
 | Background        697299
 | Borders           000
 | Font              222
-| Menu Bright       8998DB
+| Menu Colour       A7B0DB
 | Menu Saturated    8998DB
 | Menu Upper border 858585 
 |--------------------------------------------------------------*/
@@ -39,7 +39,7 @@ html {
 
 body {
   margin: 18px auto;
-  width: 740px;
+  width: 840px;
   padding: 8px;
   border: 4px double #000;
   font-family: Georgia, serif;
@@ -55,10 +55,11 @@ html, body {
 
 /* set width and center page 
 */
-header#top, div#content, footer#bottom {
+
+/*header#top, div#content, footer#bottom {
   margin: 0 auto;
-  width: 600px;
-}
+  width: 840px;
+}*/
 
 /* clearfix with overflow auto
 */
@@ -123,6 +124,7 @@ a:active  { }
 
 
 
+
 /*
 |----------------------------------------------------------------
 | Header
@@ -139,8 +141,8 @@ nav.related {
 
 header#above {
   font-family: sans-serif;
-  font-size: 14px;
-  border-bottom: 1px dashed #222;
+  font-size: .8em;
+  border-bottom: 1px dashed #444;
   padding-bottom: 4px;
   margin-bottom: 4px;
   color: #000;
@@ -159,33 +161,40 @@ header img {
 nav.navmenu {
   font-weight: bold;
   padding: 2px 8px;
-  background:#656565;
+  display: block;
+  padding: 0.3em 1em 0 1em;
+  background: #A7B0DB;
   border:2px solid #858585;
-}
-nav.navmenu {
-    display: block;
-    padding: 0.3em 1em 0 1em;
-    background: #A7B0DB;
-    border-bottom: 2px solid #8998DB;
-    border-right: 2px solid #8998DB;
+  border-bottom: 2px solid #8998DB;
+  border-right: 2px solid #8998DB;
 }
 
 nav.navmenu a {
   padding:6px 8px;
-  color: #555555;
+  color: #444;
   font: normal 1em sans-serif;
   text-decoration:none;
   /* fix */
   border:2px solid transparent; 
 }
 
-nav.navmenu a:hover {
+/* LVHA
+*/
+nav.navmenu a:link    { }
+nav.navmenu a:visited { }
+nav.navmenu a:hover   { 
   background: #8998DB;
-  border:2px solid #858585;
+  border: 2px solid #858585;
   color: #222;
-  /*border-bottom: 2px solid #A7B0DB;
-  border-right: 2px solid #A7B0DB;*/
-}
+  background: #8998DB;
+  /* CSS3 */
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+   }
+nav.navmenu a:active  { }
+
+
 
 /* navigation highlight
  * -------------------- */
@@ -193,9 +202,14 @@ nav.navmenu a:hover {
 body#me a#me-,
 body#report a#report-,
 body#source a#source- {
+  background: #A7B0DB;
   border: 2px solid #858585;
   border-bottom: 2px solid #8998DB;
   border-right: 2px solid #8998DB;
+  /* CSS3 */
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 
@@ -257,7 +271,7 @@ figure.fullwidth {
 
 footer.byline {
   clear: both;
-  border-top: 1px dashed #999999;
+  border: 1px dashed #444;
   margin-top: 2em;
   padding: 1em;
   color: #555555;
@@ -267,10 +281,8 @@ footer.byline {
 
 footer.byline img {
   padding: 2px;
-  outline: #999999 groove 1px;
+  border: none;
 }
-
-
 
 
 
@@ -283,42 +295,31 @@ footer.byline img {
 /* page footer
 */
 footer#bottom {
-  font: normal 0.9em sans-serif;
-  color: #4D4D4D;
-}
-
-/* add padding and background to the footer block 
-*/
-div#footer {
-  padding-bottom: 20px;
-  background: #E6E6E6;
-}
-
-div#footer a:active  { }
-
-/* LVHA
-*/
-nav.navmenu a:link    { }
-nav.navmenu a:visited { }
-nav.navmenu a:hover   { 
+  font: normal 1em sans-serif;
+  padding: 1em;
+  background: #A7B0DB;
   color: #222;
-  background: #8998DB;  }
-nav.navmenu a:active  { }
+}
+
 
 /* footer 
 */
-div#footer a {
+footer a {
   font: bold 0.9em sans-serif;
   text-decoration: underline;
-  color: #555;
+  color: #444;
 }
 
-div#footer a: link    { }
-div#footer a: visited { }
-div#footer a: hover {
-  text-decoration: underline;
-  color: #777;
+/* LVHA
+*/
+footer a:link    { }
+footer a:visited { }
+footer a:hover {
+  text-decoration:underline;
+  color: #222;
 }
+footer a:active   { }
+
 
 
 
@@ -353,8 +354,9 @@ div#footer a: hover {
 /* Use this to create a horizontal ruler across a column. 
 */
 hr {
-  background: #ddd;
-  color: #ddd;
+
+  background: #444;
+  color: #444;
   clear: both;
   float: none;
   width: 100%;
@@ -376,5 +378,31 @@ hr {
 }
 
 
+
+
+
+/*
+|----------------------------------------------------------------
+| CSS3
+|----------------------------------------------------------------
+*/
+
+.roundedcorner {
+ -webkit-border-bottom-right-radius: 8px;
+ -moz-border-radius-bottomright: 8px;
+ border-bottom-right-radius: 8px;
+}
+
+.superroundedcorner {
+ -webkit-border-bottom-right-radius: 30px;
+ -moz-border-radius-bottomright: 30px;
+ border-bottom-right-radius: 30px;
+}
+
+.shadow {
+ -moz-box-shadow: 6px 6px 10px #697299;
+ -webkit-box-shadow: 6px 6px 10px #697299;
+ box-shadow: 6px 6px 10px #697299;
+} 
 
 
