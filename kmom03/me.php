@@ -20,18 +20,18 @@ $pageStyle = null;
 
   <h3>Presentation med php.org-look</h3>
   <p>
-  	Hej! Mitt namn är Nils Boldt-Christmas.<br>
-  	Jag bor tillsammans med min fru på södermalm i Stockholm, (icke hon på bilden),<br>
+    Hej! Mitt namn är Nils Boldt-Christmas.<br>
+    Jag bor tillsammans med min fru på södermalm i Stockholm, (icke hon på bilden),<br>
     och om någon vecka även med en bebis.</p>
   <p>
-  	Sedan några år är jag tillbakaflyttad till Stockholm från Paris, där jag bodde 12 år<br>
-  	och arbetade som fotograf.</p>
+    Sedan några år är jag tillbakaflyttad till Stockholm från Paris, där jag bodde 12 år<br>
+    och arbetade som fotograf.</p>
   <p>
-  	Jag har sedan 90-talet, vid sidan av mitt arbete, utvecklat flash sidor som extraknäck, och byter nu till HTML5 tekniker och apputveckling för Android och iOS.</p>
+    Jag har sedan 90-talet, vid sidan av mitt arbete, utvecklat flash sidor som extraknäck, och byter nu till HTML5 tekniker och apputveckling för Android och iOS.</p>
   <p>
-	Jag hoppas känna starkt självförtroende som webbutvecklare efter dessa kursers slut.</p>
+    Jag hoppas känna starkt självförtroende som webbutvecklare efter dessa kursers slut.</p>
   <p>
-  	Hör gärna av dig om du vill ses och prata programmering, barn eller appidéer. <span style="float:right; padding-right: 16px;">// Nils </span></p>
+   Hör gärna av dig om du vill ses och prata programmering, barn eller appidéer. <span style="float:right; padding-right: 16px;">// Nils </span></p>
 
   <?php include("incl/byline.php"); ?>
 

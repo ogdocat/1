@@ -1,10 +1,10 @@
-@import url("stylesheet.css");
+import url("stylesheet.css");
 
 /*
 
 
 
-                 __________    ____    _________ 
+                 __________    ____    _________
                 |   _ __  _ / | ___ | |   ___   |
                 |  | '_ `| || |/ __|| |__/  _|  |
                 |  | | | | || |\__ \|  _ \ `__  |
@@ -21,11 +21,11 @@
 | Font              222
 | Menu Bright       A7B0DB
 | Menu Saturated    8998DB
-| Menu Upper border 858585 
+| Menu Upper border 858585
 |--------------------------------------------------------------*/
 
 
-html { 
+html {
   background: #f00;
 }
 
@@ -43,10 +43,10 @@ h2{
   border-bottom: 4px double #222;
 }
 
-a:link    { } 
+a:link    { }
 a:visited { }
-a:hover   { 
-  text-decoration: none; 
+a:hover   {
+  text-decoration: none;
   color: #5C0A0A; }
 a:active  { }
 header#above {
@@ -73,7 +73,7 @@ nav.navmenu a {
 */
 nav.navmenu a:link    { }
 nav.navmenu a:visited { }
-nav.navmenu a:hover   { 
+nav.navmenu a:hover   {
   background: #8998DB;
   border:2px solid #858585;
   color: #222;
