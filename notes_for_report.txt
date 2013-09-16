@@ -1,0 +1,6 @@
+02----------
+clear:both
+Kom ihåg “clearfix” och clear:both
+03----------
+se till att .. kmom03_get.php?tja&bah validerar
+Jag tyckte att formulären blev hyffsat snygga utan ytterligare styling och lät dem vara
