@@ -1,4 +1,4 @@
-<?php 
+<?php
 include("incl/config.php");
 $title = "Min Me-sida om mig själv";
 $pageId = "me";
@@ -7,9 +7,9 @@ $pageStyle = null;
 
 <?php include 'incl/header.php'; ?>
 
-<div id="content">
+<div id="content"><article>
   <h1>htmlphp-me</h1>
-  
+
   <figure class="right top">
     <img class="superroundedcorner" src="img/me.jpg" height="120">
     <figcaption>
@@ -28,14 +28,14 @@ $pageStyle = null;
   	och arbetade som fotograf.</p>
   <p>
   	Jag har sedan 90-talet, vid sidan av mitt arbete, utvecklat flash sidor som extraknäck, och byter nu till HTML5 tekniker och apputveckling för Android och iOS.</p>
-  <p> 
+  <p>
 	Jag hoppas känna starkt självförtroende som webbutvecklare efter dessa kursers slut.</p>
   <p>
   	Hör gärna av dig om du vill ses och prata programmering, barn eller appidéer. <span style="float:right; padding-right: 16px;">// Nils </span></p>
 
   <?php include("incl/byline.php"); ?>
 
-</div>
+</article></div>
 
 <?php include 'incl/footer.php'; ?>
 

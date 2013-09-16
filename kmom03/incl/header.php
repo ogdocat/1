@@ -27,10 +27,12 @@
   
 <!-- Above header -->
 <header id="above">
+
   <!-- Relateted links -->
   <nav class="related">
     <a href="../kmom01/me.php">kmom01</a>
-    kmom02
+    <a href="../kmom02/me.php">kmom02</a>
+    kmom03
   </nav>
 </header>
 

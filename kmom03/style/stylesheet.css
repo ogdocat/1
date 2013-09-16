@@ -2,7 +2,7 @@
 
 
 
-                 __________    ____    _________ 
+                 __________    ____    _________
                 |   _ __  _ / | ___ | |   ___   |
                 |  | '_ `| || |/ __|| |__/  _|  |
                 |  | | | | || |\__ \|  _ \ `__  |
@@ -19,7 +19,7 @@
 | Font              222
 | Menu Colour       A7B0DB
 | Menu Saturated    8998DB
-| Menu Upper border 858585 
+| Menu Upper border 858585
 |--------------------------------------------------------------*/
 
 
@@ -31,7 +31,7 @@
 |----------------------------------------------------------------
 */
 
-html { 
+html {
   background: #697299;
   /* display the scrollbar, avoid flipping pages */
   overflow-y: scroll;
@@ -53,7 +53,7 @@ html, body {
   padding: 0;
 }
 
-/* set width and center page 
+/* set width and center page
 */
 
 /*header#top, div#content, footer#bottom {
@@ -66,7 +66,7 @@ html, body {
 div#content { overflow: auto; }
 }
 
-/* html5 elements for old browsers 
+/* html5 elements for old browsers
 */
 header, footer, nav, article, section, aside, figure, figcaption {
   display: block;
@@ -106,17 +106,17 @@ h2{
 
 /* anchor links
 */
-a { 
-  color: inherit; 
+a {
+  color: inherit;
   outline: 0;
 }
 
 /* LVHA
 */
-a:link    { } 
+a:link    { }
 a:visited { }
-a:hover   { 
-  text-decoration: none; 
+a:hover   {
+  text-decoration: none;
   color: #5C0A0A; }
 a:active  { }
 
@@ -131,7 +131,7 @@ a:active  { }
 |----------------------------------------------------------------
 */
 
-/* the #above .related header and links 
+/* the #above .related header and links
  * ------------------------------------ */
 
 nav.related {
@@ -175,14 +175,14 @@ nav.navmenu a {
   font: normal 1em sans-serif;
   text-decoration:none;
   /* fix */
-  border:2px solid transparent; 
+  border:2px solid transparent;
 }
 
 /* LVHA
 */
 nav.navmenu a:link    { }
 nav.navmenu a:visited { }
-nav.navmenu a:hover   { 
+nav.navmenu a:hover   {
   background: #8998DB;
   border: 2px solid #858585;
   color: #222;
@@ -222,7 +222,7 @@ body#source a#source- {
 |----------------------------------------------------------------
 */
 
-/* add padding to main content block 
+/* add padding to main content block
 */
 div#content {
   padding: 1em;
@@ -302,7 +302,7 @@ footer#bottom {
 }
 
 
-/* footer 
+/* footer
 */
 footer a {
   font: bold 0.9em sans-serif;
@@ -343,7 +343,7 @@ footer a:active   { }
 /* not used */
 .justify, .justify-para p { text-align: justify; } /* mos justify class */
 
-/* Use a .box to create a padded box inside a column. 
+/* Use a .box to create a padded box inside a column.
 */
 .box {
   padding: 1.5em;
@@ -351,7 +351,7 @@ footer a:active   { }
   background: #F2F2F2;
 }
 
-/* Use this to create a horizontal ruler across a column. 
+/* Use this to create a horizontal ruler across a column.
 */
 hr {
 
@@ -369,7 +369,7 @@ hr {
 -------------
 */
 
-/* Border on right hand side of a column. 
+/* Border on right hand side of a column.
 */
 .border {
   padding-right: 1em;
@@ -403,6 +403,6 @@ hr {
  -moz-box-shadow: 6px 6px 10px #697299;
  -webkit-box-shadow: 6px 6px 10px #697299;
  box-shadow: 6px 6px 10px #697299;
-} 
+}
 
 

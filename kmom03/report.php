@@ -38,7 +38,7 @@ $pageStyle = null;
     Jag fastnade lite i tankar om hur jag bäst kan indentera och kommentera min CSS-kod för framtiden.<br>
     Prövade också några olika sätt att gruppera CSS-koden, och kom fram till ett för mig lättläst resultat.<br> 
     Ta gärna en titt på:
-    <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/viewsource.php?dir=style&file=stylesheet.css" title="http://www.student.bth.se/~nibc13/htmlphp/kmom02/viewsource.php?dir=style&file=stylesheet.css">stylesheet.css</a>
+    <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/viewsource.php?dir=style&amp;file=stylesheet.css" title="http://www.student.bth.se/~nibc13/htmlphp/kmom02/viewsource.php?dir=style&amp;file=stylesheet.css">stylesheet.css</a>
     för att även ge mig feedback på min hacker-signatur.
   <p>
     Jag förvandlade samtliga divs till html5 element, lade till html5shiv och valde att alltid visa scroll bar.<br>
@@ -47,7 +47,12 @@ $pageStyle = null;
     Som CSS3 element valde jag några rundade hörn och skuggor. Skapade även en gräslig <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me2.php" title="http://local.dev/~macbook/htmlphp/kmom02/me2.php">me2.php</a> variant.
   <p>  
     <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php</a>
+  <hr>
 
+  <h3>kmom02</h3>
+  <hr>
+  <p>
+    OK, Let's Go !!
 
 
 
