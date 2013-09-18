@@ -1,4 +1,4 @@
-<?php 
+<?php
 include("incl/config.php");
 $title = "Redovisningsrapport";
 $pageId = "report";
@@ -14,7 +14,7 @@ $pageStyle = null;
   <hr>
   <p>
   	Detta första kursmoment har inte presenterat några svårigheter för mig att genomföra.<br>
-  	Gillar upplägget att göra en redovisning på detta sätt, 
+  	Gillar upplägget att göra en redovisning på detta sätt,
   	och tänker att vad vi gör etsar sig fast lite bättre i minnet, då man tvingas reflektera över vad vi kodat i denna rapport.</p>
   <p>
   	Som operativsystem och dator använder jag en mac laptop med OS 10.8.<br>
@@ -37,7 +37,7 @@ $pageStyle = null;
   <p>
 
     Jag fastnade lite i tankar om hur jag bäst kan indentera och kommentera min CSS-kod för framtiden.<br>
-    Prövade också några olika sätt att gruppera CSS-koden, och kom fram till ett för mig lättläst resultat.<br> 
+    Prövade också några olika sätt att gruppera CSS-koden, och kom fram till ett för mig lättläst resultat.<br>
     Ta gärna en titt på:
     <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/viewsource.php?dir=style&amp;file=stylesheet.css" title="http://www.student.bth.se/~nibc13/htmlphp/kmom02/viewsource.php?dir=style&amp;file=stylesheet.css">stylesheet.css</a>
     för att även ge mig feedback på min hacker-signatur.
@@ -46,16 +46,18 @@ $pageStyle = null;
     Firebug är ett ovärderligt redskap. Jag använder också Chromes developer tools, som jag rekommenderar.<br>
     Strukturen med kataloger och incl är bra och jag ser fram emot att senare börja utveckla objekt orienterat.<br>
     Som CSS3 element valde jag några rundade hörn och skuggor. Skapade även en gräslig <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me2.php" title="http://local.dev/~macbook/htmlphp/kmom02/me2.php">me2.php</a> variant.
-  <p>  
+  <p>
     <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php</a>
   <hr>
 
   <h3>kmom02</h3>
   <hr>
   <p>
-    OK, Let's Go !!
-  
-  
+    Detta moment var kul med lösningar jag inte sett innan.<br>
+    Jag förstod inte poängen med att initsiera variablerna till null innan for loopen, med antar att det kommer roligare lösningar snart.
+  <p>
+    Fortsättning
+
 </article>
 </div>
 
