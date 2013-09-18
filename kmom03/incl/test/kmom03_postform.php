@@ -1,11 +1,3 @@
-<?php
-include("incl/config.php");
-$title = "POSTFORM";
-$pageId = null;
-$pageStyle = null;
-?>
-
-<?php include 'incl/header.php'; ?>
 <div id="content">
 
 <h1>Formulär och post-metoden</h1>
@@ -34,6 +26,3 @@ $pageStyle = null;
 <p><code>$_POST</code> innehåller följande:</p>
 <pre><?php print_r($_POST); ?></pre>
 </div>
-
-
-<?php include 'incl/footer.php'; ?>

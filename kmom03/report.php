@@ -8,6 +8,7 @@ $pageStyle = null;
 <?php include 'incl/header.php'; ?>
 
 <div id="content">
+<article>
   <h1>Redovisningsrapport</h1>
   <h3>kmom01</h3>
   <hr>
@@ -53,12 +54,9 @@ $pageStyle = null;
   <hr>
   <p>
     OK, Let's Go !!
-
-
-
-
   
-
+  
+</article>
 </div>
 
 <?php include 'incl/footer.php'; ?>

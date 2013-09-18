@@ -23,8 +23,8 @@
 </head>
 
 <!-- The body id helps with highlighting current menu choice -->
-<body<?php if(isset($pageId)) echo " id='$pageId' "; ?>>
-  
+<body<?php if(isset($pageId)) echo " id='$pageId' "; ?>class="superroundedcorner">
+
 <!-- Above header -->
 <header id="above">
 
@@ -44,6 +44,7 @@
   <nav class="navmenu roundedcorner">
     <a id="me-"     href="me.php">Me</a>
     <a id="report-" href="report.php">Redovisning</a>
+    <a id="test-" href="test.php">Testsida</a>
     <a id="source-" href="viewsource.php">Källkod</a>
   </nav>
 </header>

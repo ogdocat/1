@@ -1,11 +1,3 @@
-<?php
-include("incl/config.php");
-$title = "POSTFORM";
-$pageId = null;
-$pageStyle = null;
-?>
-
-<?php include 'incl/header.php'; ?>
 <div id="content"><article>
 
 <h1>Formulär och post-metoden</h1>
@@ -51,7 +43,4 @@ if(isset($_POST['account'])) {
   echo "<p>Kontot är EJ definerat.</p>";
 }
 ?>
-
 </article></div>
-
-<?php include 'incl/footer.php'; ?>

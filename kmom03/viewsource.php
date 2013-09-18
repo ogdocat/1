@@ -12,11 +12,9 @@ $pageStyle=$sourceStyle;
 ?>
 
 <?php include("incl/header.php"); ?>
-
 <div id="content">
 <?php echo "$sourceBody"; ?>
 <hr>
 </div>
-
 <?php include("incl/footer.php"); ?>
 

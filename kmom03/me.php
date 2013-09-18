@@ -1,13 +1,14 @@
 <?php
 include("incl/config.php");
-$title = "Min Me-sida om mig själv";
+$title = "Me-sidan";
 $pageId = "me";
 $pageStyle = null;
 ?>
 
 <?php include 'incl/header.php'; ?>
 
-<div id="content"><article>
+<div id="content">
+<article>
   <h1>htmlphp-me</h1>
 
   <figure class="right top">
@@ -35,7 +36,8 @@ $pageStyle = null;
 
   <?php include("incl/byline.php"); ?>
 
-</article></div>
+</article>
+</div>
 
 <?php include 'incl/footer.php'; ?>
 

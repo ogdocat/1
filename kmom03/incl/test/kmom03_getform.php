@@ -1,11 +1,3 @@
-<?php
-include("incl/config.php");
-$title = "GETFORM";
-$pageId = null;
-$pageStyle = null;
-?>
-
-<?php include 'incl/header.php'; ?>
 <div id="content">
 
 <h1>Formulär och get-metoden</h1>
@@ -35,4 +27,3 @@ $pageStyle = null;
 <pre><?php print_r($_GET); ?></pre>
 </div>
 
-<?php include 'incl/footer.php'; ?>

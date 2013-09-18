@@ -2,7 +2,7 @@
 
 
 
-                 __________    ____    _________
+                 ___________    ____    ________ 
                 |   _ __  _ / | ___ | |   ___   |
                 |  | '_ `| || |/ __|| |__/  _|  |
                 |  | | | | || |\__ \|  _ \ `__  |
@@ -19,7 +19,7 @@
 | Font              222
 | Menu Colour       A7B0DB
 | Menu Saturated    8998DB
-| Menu Upper border 858585
+| Menu Upper border 858585 
 |--------------------------------------------------------------*/
 
 
@@ -31,7 +31,7 @@
 |----------------------------------------------------------------
 */
 
-html {
+html { 
   background: #697299;
   /* display the scrollbar, avoid flipping pages */
   overflow-y: scroll;
@@ -46,14 +46,15 @@ body {
   background: #eee;
   color: #222;
 }
+
 /* browser reset
 */
-html, body {
+/*html, body {
   margin: 0;
   padding: 0;
-}
+}*/
 
-/* set width and center page
+/* set width and center page 
 */
 
 /*header#top, div#content, footer#bottom {
@@ -64,9 +65,8 @@ html, body {
 /* clearfix with overflow auto
 */
 div#content { overflow: auto; }
-}
 
-/* html5 elements for old browsers
+/* html5 elements for old browsers 
 */
 header, footer, nav, article, section, aside, figure, figcaption {
   display: block;
@@ -160,9 +160,8 @@ header img {
 
 nav.navmenu {
   font-weight: bold;
-  padding: 2px 8px;
   display: block;
-  padding: 0.3em 1em 0 1em;
+  padding: 0.3em 1em 0.2em 1em;
   background: #A7B0DB;
   border:2px solid #858585;
   border-bottom: 2px solid #8998DB;
@@ -296,9 +295,14 @@ footer.byline img {
 */
 footer#bottom {
   font: normal 1em sans-serif;
-  padding: 1em;
+  padding: .2em 1em;
   background: #A7B0DB;
   color: #222;
+
+
+  border:2px solid #858585;
+  border-bottom: 2px solid #8998DB;
+  border-right: 2px solid #8998DB;
 }
 
 
@@ -394,9 +398,9 @@ hr {
 }
 
 .superroundedcorner {
- -webkit-border-bottom-right-radius: 30px;
- -moz-border-radius-bottomright: 30px;
- border-bottom-right-radius: 30px;
+ -webkit-border-bottom-right-radius: 16px;
+ -moz-border-radius-bottomright: 16px;
+ border-bottom-right-radius: 16px;
 }
 
 .shadow {
@@ -405,4 +409,40 @@ hr {
  box-shadow: 6px 6px 10px #697299;
 }
 
+/*
+|----------------------------------------------------------------
+| List opts
+|----------------------------------------------------------------
+*/
+
+ul {
+  list-style-type: none;
+ padding-left: 0px;
+}
+/* page footer
+*/
+ul a{
+  font: bold 0.9em sans-serif;
+  color: #444;
+  line-height: 1.2em;
+}
+
+
+/* footer
+*/
+footer a {
+  font: bold 0.9em sans-serif;
+  text-decoration: underline;
+  color: #444;
+}
+
+/* LVHA
+*/
+footer a:link    { }
+footer a:visited { }
+footer a:hover {
+  text-decoration:underline;
+  color: #222;
+}
+footer a:active   { }
 
