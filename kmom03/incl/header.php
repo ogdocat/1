@@ -28,6 +28,8 @@
 <!-- Above header -->
 <header id="above">
 
+  <?php echo userLoginMenu(); ?>
+
   <!-- Relateted links -->
   <nav class="related">
     <a href="../kmom01/me.php">kmom01</a>
@@ -44,7 +46,7 @@
   <nav class="navmenu roundedcorner">
     <a id="me-"     href="me.php">Me</a>
     <a id="report-" href="report.php">Redovisning</a>
-    <a id="test-" href="test.php">Testsida</a>
+    <a id="test-"   href="test.php">Testsida</a>
     <a id="source-" href="viewsource.php">Källkod</a>
   </nav>
 </header>

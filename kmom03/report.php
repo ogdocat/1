@@ -50,13 +50,13 @@ $pageStyle = null;
     <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom02/me.php</a>
   <hr>
 
-  <h3>kmom02</h3>
+  <h3>kmom03</h3>
   <hr>
   <p>
     Detta moment var kul med lösningar jag inte sett innan.<br>
     Jag förstod inte poängen med att initsiera variablerna till null innan for loopen, med antar att det kommer roligare lösningar snart.
   <p>
-    Fortsättning
+    Jag vet inte hur många gånger jag 
 
 </article>
 </div>

@@ -1,5 +1,3 @@
-<div id="content">
-
 <h1>Formulär och post-metoden</h1>
  <form method="post" action="?">
   <fieldset>
@@ -25,4 +23,3 @@
 
 <p><code>$_POST</code> innehåller följande:</p>
 <pre><?php print_r($_POST); ?></pre>
-</div>

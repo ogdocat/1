@@ -1,5 +1,3 @@
-<div id="content">
-
 <h1>Formulär och get-metoden</h1>
  <form method="get" action="?">
   <fieldset>
@@ -25,5 +23,3 @@
 
 <p><code>$_GET</code> innehåller följande:</p>
 <pre><?php print_r($_GET); ?></pre>
-</div>
-

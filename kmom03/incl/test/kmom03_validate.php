@@ -1,5 +1,3 @@
-<div id="content"><article>
-
 <h1>Formulär och post-metoden</h1>
  <form method="post" action="?">
   <fieldset>
@@ -43,4 +41,3 @@ if(isset($_POST['account'])) {
   echo "<p>Kontot är EJ definerat.</p>";
 }
 ?>
-</article></div>

@@ -148,6 +148,14 @@ header#above {
   color: #000;
 }
 
+nav.related, nav.login {
+  padding: 0.2em 1em 0.3em 1em;
+  font-size: .8em;
+  color: #000;
+}
+
+nav.login { float: right; }
+
 /* logo header
  * ----------- */
 
@@ -308,7 +316,7 @@ footer#bottom {
 
 /* footer
 */
-footer a {
+footer a{
   font: bold 0.9em sans-serif;
   text-decoration: underline;
   color: #444;
@@ -324,6 +332,9 @@ footer a:hover {
 }
 footer a:active   { }
 
+footer p:nth-last-child(1) {
+  font-size: 97%;
+}
 
 
 
