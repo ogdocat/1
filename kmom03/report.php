@@ -53,10 +53,22 @@ $pageStyle = null;
   <h3>kmom03</h3>
   <hr>
   <p>
-    Detta moment var kul med lösningar jag inte sett innan.<br>
-    Jag förstod inte poängen med att initsiera variablerna till null innan for loopen, med antar att det kommer roligare lösningar snart.
+    Detta moment var kul med några lösningar jag inte sett innan.<br>
+    Jag lärde mig massa nytt och tycker det är himla kul.
   <p>
-    Jag vet inte hur många gånger jag 
+    Generellt så tycker jag att koden är bra att läsa igenom några gånger efter att ha skrivit dem.<br>
+    På något sätt känns det som om jag förstår HTTP verben för första gången vid varje omläsning.</p>
+  <p>
+    Jag läste igenom php20 och gillade. Den var klart nyttig att läsa.</p>
+  <p>
+    Jag har tidigare erfarenhet av C-språk och har gjort siter i Ruby on rails och Flash med actionscript3.<br>
+    Tycker att PHP koden lätt kan bli grötig, och ser därför fram emot bättre struktur med codeigniter, i kursen som kommer senare.
+  <p>
+    Jag provade vingarna vid övningarna och lyckades helt ok med samtliga.<br>
+    De redan skrivna lösningarna var mer eleganta, så jag redigerade mina därefter för framtida referens.
+  <p>
+    <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom03/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom03/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom03/me.php</a>
+  <hr>
 
 </article>
 </div>

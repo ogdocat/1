@@ -77,13 +77,13 @@ else
   $pageTitle   = "Tester";
   $file        = "default.php";
 }
-
 ?>
 
 
-<?php include("incl/header.php"); ?>
+<?php include 'incl/header.php'; ?>
+
 <div id="content">
-  <aside class="left" style="width:20%;">
+  <aside class="left" style="width:17%;">
     <?php include("$path/aside.php"); ?>
   </aside>
   <article class="right justify-para" style="width:76%;">
