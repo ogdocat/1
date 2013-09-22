@@ -32,7 +32,8 @@ $pageStyle = null;
   <p>
     Jag hoppas känna starkt självförtroende som webbutvecklare efter dessa kursers slut.</p>
   <p>
-   Hör gärna av dig om du vill ses och prata programmering, barn eller appidéer. <span style="float:right; padding-right: 16px;">// Nils </span></p>
+   Hör gärna av dig om du vill ses och prata programmering, barn eller appidéer. <span style="float:right; padding-right: 16px;">// Nils </span>
+  </p>
 
   <?php include("incl/byline.php"); ?>
 

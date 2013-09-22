@@ -2,7 +2,7 @@
 
 
 
-                 ___________    ____    ________ 
+                 __________    ____    _________ 
                 |   _ __  _ / | ___ | |   ___   |
                 |  | '_ `| || |/ __|| |__/  _|  |
                 |  | | | | || |\__ \|  _ \ `__  |
@@ -45,14 +45,13 @@ body {
   font-family: Georgia, serif;
   background: #eee;
   color: #222;
-}
 
 /* browser reset
 */
-/*html, body {
+html, body {
   margin: 0;
   padding: 0;
-}*/
+}
 
 /* set width and center page 
 */
@@ -65,6 +64,7 @@ body {
 /* clearfix with overflow auto
 */
 div#content { overflow: auto; }
+}
 
 /* html5 elements for old browsers 
 */
@@ -106,17 +106,17 @@ h2{
 
 /* anchor links
 */
-a {
-  color: inherit;
+a { 
+  color: inherit; 
   outline: 0;
 }
 
 /* LVHA
 */
-a:link    { }
+a:link    { } 
 a:visited { }
-a:hover   {
-  text-decoration: none;
+a:hover   { 
+  text-decoration: none; 
   color: #5C0A0A; }
 a:active  { }
 
@@ -131,7 +131,7 @@ a:active  { }
 |----------------------------------------------------------------
 */
 
-/* the #above .related header and links
+/* the #above .related header and links 
  * ------------------------------------ */
 
 nav.related {
@@ -148,14 +148,6 @@ header#above {
   color: #000;
 }
 
-nav.related, nav.login {
-  padding: 0.2em 1em 0.3em 1em;
-  font-size: .8em;
-  color: #000;
-}
-
-nav.login { float: right; }
-
 /* logo header
  * ----------- */
 
@@ -168,8 +160,9 @@ header img {
 
 nav.navmenu {
   font-weight: bold;
+  padding: 2px 8px;
   display: block;
-  padding: 0.3em 1em 0.2em 1em;
+  padding: 0.3em 1em 0 1em;
   background: #A7B0DB;
   border:2px solid #858585;
   border-bottom: 2px solid #8998DB;
@@ -182,21 +175,21 @@ nav.navmenu a {
   font: normal 1em sans-serif;
   text-decoration:none;
   /* fix */
-  border:2px solid transparent;
+  border:2px solid transparent; 
 }
 
 /* LVHA
 */
 nav.navmenu a:link    { }
 nav.navmenu a:visited { }
-nav.navmenu a:hover   {
+nav.navmenu a:hover   { 
   background: #8998DB;
   border: 2px solid #858585;
   color: #222;
   background: #8998DB;
   /* CSS3 */
-  /*-webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-bottomright: 8px;*/
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
   border-bottom-right-radius: 8px;
    }
 nav.navmenu a:active  { }
@@ -206,8 +199,7 @@ nav.navmenu a:active  { }
 /* navigation highlight
  * -------------------- */
 
-body#me a#me-, 
-body#test a#test-,
+body#me a#me-,
 body#report a#report-,
 body#source a#source- {
   background: #A7B0DB;
@@ -215,8 +207,8 @@ body#source a#source- {
   border-bottom: 2px solid #8998DB;
   border-right: 2px solid #8998DB;
   /* CSS3 */
-  /*-webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-bottomright: 8px;*/
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
   border-bottom-right-radius: 8px;
 }
 
@@ -230,7 +222,7 @@ body#source a#source- {
 |----------------------------------------------------------------
 */
 
-/* add padding to main content block
+/* add padding to main content block 
 */
 div#content {
   padding: 1em;
@@ -304,20 +296,15 @@ footer.byline img {
 */
 footer#bottom {
   font: normal 1em sans-serif;
-  padding: .2em 1em;
+  padding: 1em;
   background: #A7B0DB;
   color: #222;
-
-
-  border:2px solid #858585;
-  border-bottom: 2px solid #8998DB;
-  border-right: 2px solid #8998DB;
 }
 
 
-/* footer
+/* footer 
 */
-footer a{
+footer a {
   font: bold 0.9em sans-serif;
   text-decoration: underline;
   color: #444;
@@ -333,9 +320,6 @@ footer a:hover {
 }
 footer a:active   { }
 
-footer p:nth-last-child(1) {
-  font-size: 97%;
-}
 
 
 
@@ -359,7 +343,7 @@ footer p:nth-last-child(1) {
 /* not used */
 .justify, .justify-para p { text-align: justify; } /* mos justify class */
 
-/* Use a .box to create a padded box inside a column.
+/* Use a .box to create a padded box inside a column. 
 */
 .box {
   padding: 1.5em;
@@ -367,7 +351,7 @@ footer p:nth-last-child(1) {
   background: #F2F2F2;
 }
 
-/* Use this to create a horizontal ruler across a column.
+/* Use this to create a horizontal ruler across a column. 
 */
 hr {
 
@@ -385,7 +369,7 @@ hr {
 -------------
 */
 
-/* Border on right hand side of a column.
+/* Border on right hand side of a column. 
 */
 .border {
   padding-right: 1em;
@@ -404,63 +388,21 @@ hr {
 */
 
 .roundedcorner {
- /*-webkit-border-bottom-right-radius: 8px;
- -moz-border-radius-bottomright: 8px;*/
+ -webkit-border-bottom-right-radius: 8px;
+ -moz-border-radius-bottomright: 8px;
  border-bottom-right-radius: 8px;
 }
 
 .superroundedcorner {
- /*-webkit-border-bottom-right-radius: 16px;
- -moz-border-radius-bottomright: 16px;*/
- border-bottom-right-radius: 16px;
+ -webkit-border-bottom-right-radius: 30px;
+ -moz-border-radius-bottomright: 30px;
+ border-bottom-right-radius: 30px;
 }
 
 .shadow {
- /*-moz-box-shadow: 6px 6px 10px #697299;
- -webkit-box-shadow: 6px 6px 10px #697299;*/
+ -moz-box-shadow: 6px 6px 10px #697299;
+ -webkit-box-shadow: 6px 6px 10px #697299;
  box-shadow: 6px 6px 10px #697299;
-}
-
-/*
-|----------------------------------------------------------------
-| List opts
-|----------------------------------------------------------------
-*/
-
-ul {
-  list-style-type: none;
- padding-left: 0px;
-}
-/* page footer
-*/
-ul a{
-  font: bold 0.9em sans-serif;
-  color: #444;
-  line-height: 1.2em;
-}
-
-
-/* footer
-*/
-footer a {
-  font: bold 0.9em sans-serif;
-  text-decoration: underline;
-  color: #444;
-}
-
-/* LVHA
-*/
-footer a:link    { }
-footer a:visited { }
-footer a:hover {
-  text-decoration:underline;
-  color: #222;
-}
-footer a:active   { }
-
-ul h4 {
-margin-bottom: 1em;
-}
-
+} 
 
 

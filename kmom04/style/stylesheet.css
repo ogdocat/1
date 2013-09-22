@@ -195,8 +195,8 @@ nav.navmenu a:hover   {
   color: #222;
   background: #8998DB;
   /* CSS3 */
-  -webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-bottomright: 8px;
+  /*-webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;*/
   border-bottom-right-radius: 8px;
    }
 nav.navmenu a:active  { }
@@ -206,7 +206,8 @@ nav.navmenu a:active  { }
 /* navigation highlight
  * -------------------- */
 
-body#me a#me-,
+body#me a#me-, 
+body#test a#test-,
 body#report a#report-,
 body#source a#source- {
   background: #A7B0DB;
@@ -214,8 +215,8 @@ body#source a#source- {
   border-bottom: 2px solid #8998DB;
   border-right: 2px solid #8998DB;
   /* CSS3 */
-  -webkit-border-bottom-right-radius: 8px;
-  -moz-border-radius-bottomright: 8px;
+  /*-webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;*/
   border-bottom-right-radius: 8px;
 }
 
@@ -403,20 +404,20 @@ hr {
 */
 
 .roundedcorner {
- -webkit-border-bottom-right-radius: 8px;
- -moz-border-radius-bottomright: 8px;
+ /*-webkit-border-bottom-right-radius: 8px;
+ -moz-border-radius-bottomright: 8px;*/
  border-bottom-right-radius: 8px;
 }
 
 .superroundedcorner {
- -webkit-border-bottom-right-radius: 16px;
- -moz-border-radius-bottomright: 16px;
+ /*-webkit-border-bottom-right-radius: 16px;
+ -moz-border-radius-bottomright: 16px;*/
  border-bottom-right-radius: 16px;
 }
 
 .shadow {
- -moz-box-shadow: 6px 6px 10px #697299;
- -webkit-box-shadow: 6px 6px 10px #697299;
+ /*-moz-box-shadow: 6px 6px 10px #697299;
+ -webkit-box-shadow: 6px 6px 10px #697299;*/
  box-shadow: 6px 6px 10px #697299;
 }
 
@@ -456,4 +457,10 @@ footer a:hover {
   color: #222;
 }
 footer a:active   { }
+
+ul h4 {
+margin-bottom: 1em;
+}
+
+
 

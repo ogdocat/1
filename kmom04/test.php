@@ -3,9 +3,7 @@ include("incl/config.php");
 $title = "Testsidan";
 $pageId = "test";
 $pageStyle = null;
-?>
 
-<?php
 // Check if the url contains a querystring with a page-part.
 $p = null;
 if(isset($_GET["p"]))
@@ -13,7 +11,7 @@ if(isset($_GET["p"]))
   $p = $_GET["p"];
 }
 
-// Is the page known?
+// Better with switch?
 $path = "incl/test";
 $file = null;
 if($p == "kmom02-pagestyle")
@@ -77,16 +75,15 @@ else
   $pageTitle   = "Tester";
   $file        = "default.php";
 }
-
 ?>
 
+<?php include 'incl/header.php'; ?>
 
-<?php include("incl/header.php"); ?>
 <div id="content">
-  <aside class="left" style="width:20%;">
+  <aside class="left" style="width:14%;">
     <?php include("$path/aside.php"); ?>
   </aside>
-  <article class="right justify-para" style="width:76%;">
+  <article class="right justify-para" style="width:80%;">
     <?php include("$path/$file"); ?>
     <p class="quiet small">Källkod till detta testfall, <code><?php echo "$path/$file"; ?></code>,
     <a href="viewsource.php?dir=<?php echo $path; ?>&amp;file=<?php echo $file; ?>#file">hittar du här</a>.</p>
