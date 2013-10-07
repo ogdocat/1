@@ -1,5 +1,6 @@
 <?php
 include("incl/config.php");
+$title = "Login";
 $pageId = "login";
 
 

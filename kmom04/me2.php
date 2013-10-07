@@ -1,6 +1,6 @@
 <?php 
 include("incl/config.php");
-$title = "Min Me-sida om mig själv";
+$title = "Min Me-sida";
 $pageId = "me";
 $pageStyle = '
 html { background: #FB4664; } 
