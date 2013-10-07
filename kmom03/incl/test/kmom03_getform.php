@@ -1,5 +1,6 @@
 <h1>Formulär och get-metoden</h1>
  <form method="get" action="?">
+  <input type="hidden" name="p" value="kmom03-getform">
   <fieldset>
    <legend>Exempel på formulär med get-metoden</legend>
    <p>
@@ -20,6 +21,5 @@
 
 <p>Du anropade sidan med följande querystring:
 <code><?php echo htmlentities($_SERVER['QUERY_STRING']); ?></code></p>
-
 <p><code>$_GET</code> innehåller följande:</p>
 <pre><?php print_r($_GET); ?></pre>

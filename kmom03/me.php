@@ -1,6 +1,6 @@
 <?php
 include("incl/config.php");
-$title = "Me-sidan";
+$title = "Min Me-sida";
 $pageId = "me";
 $pageStyle = null;
 ?>

@@ -1,5 +1,5 @@
 <h1>Formulär och post-metoden</h1>
- <form method="post" action="?">
+ <form method="post" action="?p=kmom03-validate">
   <fieldset>
    <legend>Exempel på formulär med post-metoden</legend>
    <p>
@@ -20,7 +20,8 @@
 
 <p>Du anropade sidan med följande querystring:
 <code><?php echo htmlentities($_SERVER['QUERY_STRING']); ?></code></p>
-
+<p><code>$_GET</code> innehåller följande:</p>
+<pre><?php print_r($_GET); ?></pre>
 <p><code>$_POST</code> innehåller följande:</p>
 <pre><?php print_r($_POST); ?></pre>
 
