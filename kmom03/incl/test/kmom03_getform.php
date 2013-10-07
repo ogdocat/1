@@ -23,10 +23,5 @@
 <p>Du anropade sidan med följande querystring:
 <code><?php echo htmlentities($_SERVER['QUERY_STRING']); ?></code></p>
 <p><code>$_GET</code> innehåller följande:</p>
-<<<<<<< HEAD
 <pre><?php print_r($_GET); ?></pre>
-<p><code>$_POST</code> innehåller följande:</p>
-<pre><?php print_r($_POST); ?></pre>
-=======
-<pre><?php print_r($_GET); ?></pre>
->>>>>>> 7bbc9897128726fcdf6c4ec41c9210e1573e5834
+     
