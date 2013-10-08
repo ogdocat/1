@@ -14,11 +14,11 @@
 |----------------------------------------------------------------
 | Hex values:
 |----------------------------------------------------------------
-| Background        697299
+| Background        444
 | Borders           000
 | Font              222
-| Menu Colour       A7B0DB
-| Menu Saturated    8998DB
+| Menu Colour       AAA
+| Menu Saturated    777
 | Menu Upper border 858585 
 |--------------------------------------------------------------*/
 
@@ -32,7 +32,7 @@
 */
 
 html { 
-  background: #697299;
+  background: #444;
   /* display the scrollbar, avoid flipping pages */
   overflow-y: scroll;
 }
@@ -170,10 +170,10 @@ nav.navmenu {
   font-weight: bold;
   display: block;
   padding: 0.3em 1em 0.2em 1em;
-  background: #A7B0DB;
+  background: #AAA;
   border:2px solid #858585;
-  border-bottom: 2px solid #8998DB;
-  border-right: 2px solid #8998DB;
+  border-bottom: 2px solid #777;
+  border-right: 2px solid #777;
 }
 
 nav.navmenu a {
@@ -190,10 +190,10 @@ nav.navmenu a {
 nav.navmenu a:link    { }
 nav.navmenu a:visited { }
 nav.navmenu a:hover   {
-  background: #8998DB;
+  background: #777;
   border: 2px solid #858585;
   color: #222;
-  background: #8998DB;
+  background: #777;
   /* CSS3 */
   /*-webkit-border-bottom-right-radius: 8px;
   -moz-border-radius-bottomright: 8px;*/
@@ -211,10 +211,10 @@ body#test a#test-,
 body#report a#report-,
 body#style a#style-,
 body#source a#source- {
-  background: #A7B0DB;
+  background: #AAA;
   border: 2px solid #858585;
-  border-bottom: 2px solid #8998DB;
-  border-right: 2px solid #8998DB;
+  border-bottom: 2px solid #777;
+  border-right: 2px solid #777;
   /* CSS3 */
   /*-webkit-border-bottom-right-radius: 8px;
   -moz-border-radius-bottomright: 8px;*/
@@ -306,13 +306,13 @@ footer.byline img {
 footer#bottom {
   font: normal 1em sans-serif;
   padding: .2em 1em;
-  background: #A7B0DB;
+  background: #AAA;
   color: #222;
 
 
   border:2px solid #858585;
-  border-bottom: 2px solid #8998DB;
-  border-right: 2px solid #8998DB;
+  border-bottom: 2px solid #777;
+  border-right: 2px solid #777;
 }
 
 
@@ -416,9 +416,9 @@ hr {
 }
 
 .shadow {
- /*-moz-box-shadow: 6px 6px 10px #697299;
- -webkit-box-shadow: 6px 6px 10px #697299;*/
- box-shadow: 6px 6px 10px #697299;
+ /*-moz-box-shadow: 6px 6px 10px #444;
+ -webkit-box-shadow: 6px 6px 10px #444;*/
+ box-shadow: 6px 6px 10px #444;
 }
 
 /*
