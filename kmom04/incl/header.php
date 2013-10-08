@@ -4,10 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title><?php echo $title; ?></title>
-  <link rel="stylesheet" href="style/stylesheet.css" title="General stylesheet">
-  <link rel="alternate stylesheet" href="style/debug.css" title="Reversed stylesheet">
+
+  <!-- links to external stylesheets -->
+  <?php if(isset($_SESSION['stylesheet'])): ?>
+    <link rel="stylesheet" href="style/<?php echo $_SESSION['stylesheet']; ?>">
+  <?php else: ?>
+    <link rel="stylesheet" href="style/stylesheet.css" title="General stylesheet">
+    <link rel="alternate stylesheet" href="style/debug.css" title="Debug stylesheet">
+  <?php endif; ?>
+
   <!-- favico -->
   <link rel="shortcut icon" href="img/favicon.ico">
+
+  <!-- Each page can set $pageStyle to create an internal stylesheet -->
+  <?php if(isset($pageStyle)) : ?>
+  <style type="text/css">
+    <?php echo $pageStyle; ?>
+  </style>
+  <?php endif; ?>
 
   <!-- Each page can set $pageStyle to create an internal stylesheet -->
   <?php if(isset($pageStyle)) : ?>
@@ -34,7 +48,8 @@
   <nav class="related">
     <a href="../kmom01/me.php">kmom01</a>
     <a href="../kmom02/me.php">kmom02</a>
-    kmom03
+    <a href="../kmom03/me.php">kmom03</a>
+    kmom04
   </nav>
 </header>
 
@@ -47,6 +62,7 @@
     <a id="me-"     href="me.php">Me</a>
     <a id="report-" href="report.php">Redovisning</a>
     <a id="test-"   href="test.php">Testsida</a>
+    <a id="style-"   href="style.php">Styles</a>
     <a id="source-" href="viewsource.php">Källkod</a>
   </nav>
 </header>

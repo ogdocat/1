@@ -8,8 +8,8 @@
 // Author: Mikael Roos, mos@bth.se
 //
 // Change history:
-// 
-// 2011-02-04: 
+//
+// 2011-02-04:
 // First try. Used as example code in htmlphp-kmom03.
 //
 
@@ -36,7 +36,7 @@ function getCurrentUrl() {
 function destroySession() {
   // Unset all of the session variables.
   $_SESSION = array();
-  
+
   // If it's desired to kill the session, also delete the session cookie.
   // Note: This will destroy the session, and not just the session data!
   if (ini_get("session.use_cookies")) {
@@ -46,7 +46,37 @@ function destroySession() {
           $params["secure"], $params["httponly"]
       );
   }
-  
+
   // Finally, destroy the session.
   session_destroy();
+}
+
+
+// -------------------------------------------------------------------------------------------
+//
+// Function to open and read a directory, return its content as an array.
+//
+// $aPath: A path to the directory to scan for files.
+//
+//  http://php.net/manual/en/function.is-dir.php
+//  http://php.net/manual/en/function.opendir.php
+//  http://php.net/manual/en/function.readdir.php
+//  http://php.net/manual/en/function.is-file.php
+//  http://php.net/manual/en/function.closedir.php
+//  http://php.net/manual/en/function.sort.php
+//
+function readDirectory($aPath) {
+  $list = Array();
+  if(is_dir($aPath)) {
+    if ($dh = opendir($aPath)) {
+      while (($file = readdir($dh)) !== false) {
+        if(is_file("$aPath/$file") && $file != '.htaccess') {
+          $list[$file] = "$file";
+        }
+      }
+      closedir($dh);
+    }
+  }
+  sort($list, SORT_STRING);
+  return $list;
 }

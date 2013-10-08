@@ -209,6 +209,7 @@ nav.navmenu a:active  { }
 body#me a#me-, 
 body#test a#test-,
 body#report a#report-,
+body#style a#style-,
 body#source a#source- {
   background: #A7B0DB;
   border: 2px solid #858585;
