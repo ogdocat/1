@@ -70,6 +70,25 @@ $pageStyle = null;
     <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom03/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom03/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom03/me.php</a>
   <hr>
 
+  <h3>kmom04</h3>
+  <hr>
+  <p>
+    Jag nödgades ta en paus från kursarbetet, och kände mig lite främmande för koden när jag nu satt igång igen, men nu rullar allt på igen.</p>
+  <p>
+    Kodlösningarna var spännande att arbeta igenom, och allting går bra att förstå.<br>
+    Eftersom jag tänkt avancera fortare nu genom kurserna, så sparade jag på kreativitet, och gjorde en enkel *nix-spoof.css som "cool css variant".</p>
+  <p>
+    Med kmom03 lämnade jag in uppgiften med en del slarvfel. Dels för att jag tidigare krånglat till det med en våghalsad git-manöver.<br>
+    Normalt jobbar jag med testdriven utveckling och glömmer hur man annars måste klicka runt på alla sidor och verifiera att allt är med.<br>
+    Har inte provat PHPUnit men det kanske kan vara något för framtiden</p>
+  <p>
+    Jag har sedan tidigare erfarenhet av CSS och har designat många siter. En del efter layouts från kundens ad/grafiska formgivare.</br>
+    Med PHP känner jag att allt går bra och funkar. Ser fram emot att komma vidare i kurserna.
+  </p>
+  <p>
+    <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom04/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom04/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom04/me.php</a>
+  <hr>
+
 </article>
 </div>
 

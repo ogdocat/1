@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/<?php echo $_SESSION['stylesheet']; ?>">
   <?php else: ?>
     <link rel="stylesheet" href="style/stylesheet.css" title="General stylesheet">
-    <link rel="alternate stylesheet" href="style/debug.css" title="Debug stylesheet">
+    <link rel="alternate stylesheet" href="style/grey.css" title="gray stylesheet">
   <?php endif; ?>
 
   <!-- favico -->
