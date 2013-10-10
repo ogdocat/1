@@ -1,7 +1,6 @@
 <?php
 include("incl/config.php");
-$pageId = "style";
-
+$pageId = "blokket";
 
 // Check if the url contains a querystring with a page-part.
 $p = null;
@@ -10,35 +9,61 @@ if(isset($_GET["p"]))
   $p = $_GET["p"];
 }
 
-
-// Is the page known?
-$path = "incl/style";
+// switchaway..
+$path = "incl/blokket";
 $file = null;
 switch($p)
 {
-  case "choose-stylesheet":
+  case "init":
   {
-    $title   = "Välj Stylesheet";
-    $file        = "choose_stylesheet.php";
+    $title   = "Initiera annonserna";
+    $file        = "init.php";
   }
   break;
-  case "choose-stylesheet-process":
+
+  case "update":
   {
-    include("$path/choose_stylesheet_process.php");
+    $title   = "Visa och uppdatera annonser";
+    $file        = "update.php";
   }
   break;
-  case "edit-stylesheet":
+
+  case "create":
   {
-    $title   = "Skapa Stylesheet";
-    $file        = "edit_stylesheet.php";
+    $title   = "Skapa ny annons";
+    $file        = "create.php";
   }
   break;
+
+  case "delete":
+  {
+    $title   = "Radera annons";
+    $file        = "delete.php";
+  }
+  break;
+
+  case "read":
+  {
+    $title   = "Visa annons";
+    $file        = "read.php";
+  }
+  break;
+
+  case "read-all":
+  {
+    $title   = "Visa alla annonser";
+    $file        = "read_all.php";
+  }
+  break;
+
   default:
   {
-    $title   = "Välj style för webbplatsen.";
+    $title   = "Blokket, annonsplatsen";
     $file        = "default.php";
   }
 }
+
+
 ?>
 
 

@@ -1,0 +1,10 @@
+* {
+  background-color: black;
+  color: white;
+  font-family : "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+img, figure {
+ display:none;
+}
+  

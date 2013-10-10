@@ -22,23 +22,28 @@ switch($p)
     $file        = "choose_stylesheet.php";
   }
   break;
+
   case "choose-stylesheet-process":
   {
     include("$path/choose_stylesheet_process.php");
   }
   break;
+
   case "edit-stylesheet":
   {
     $title   = "Skapa Stylesheet";
     $file        = "edit_stylesheet.php";
   }
   break;
+
   default:
   {
     $title   = "Välj style för webbplatsen.";
     $file        = "default.php";
   }
 }
+
+
 ?>
 
 
