@@ -43,7 +43,8 @@
     <a href="../kmom02/me.php">kmom02</a>
     <a href="../kmom03/me.php">kmom03</a>
     <a href="../kmom04/me.php">kmom04</a>
-    kmom05
+    <a href="../kmom05/me.php">kmom05</a>
+    kmom06
   </nav>
 </header>
 
@@ -58,6 +59,7 @@
     <a id="test-"   href="test.php">Testsida</a>
     <a id="style-"   href="style.php">Styles</a>
     <a id="blokket-"   href="blokket.php">Blokket</a>
+    <a id="blokket2-"   href="blokket.php">Blokket2</a>
     <a id="source-" href="viewsource.php">Källkod</a>
   </nav>
 </header>
