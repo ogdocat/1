@@ -1,0 +1,26 @@
+/* import style
+-------------------------------------------------------- 
+
+*/
+@import url(stylesheet.css);
+
+
+/* make it blue
+-------------------------------------------------------- 
+
+*/
+body{
+ background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,red),color-stop(10%, green),color-stop(100%, blue)); 
+ background: -moz-linear-gradient(top,red 0%,green 200px,blue 100%);
+}
+
+html,header#above{background:pink;}
+
+header#top,
+div#content{background:hsla(0,0%,100%,0.7);padding:10px;margin:10px auto;
+ border:1px solid #0A335C;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;}
+
+div#footer{margin-top:10px;background:#DFEDFB;} 

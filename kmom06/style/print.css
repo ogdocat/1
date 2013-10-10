@@ -1,0 +1,22 @@
+/* -------------------------------------------------------------------------------------
+/* 
+/* Stylesheet.
+/* 
+/* For printing. Remove some elements, not needed for print. Reduce colors. 
+/* Change width and margins.
+ */
+
+/* -------------------------------------------------------------------------------------
+/* Make some changes */
+body{background:white !important;font-size:12pt;}
+header#above,nav.navmenu,nav.submenu,#footer,aside,.noprint{display:none !important; }
+div#wrap,#content,article,section{
+  width: auto !important;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  color: black; 
+  background: transparent;
+  float: none !important;
+  overflow: visible !important;
+}
