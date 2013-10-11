@@ -2,8 +2,8 @@
 include("incl/config.php");
 $pageId = "blokket2";
 
-// Path to SQLLite db
-$dbPath = dirname(__FILE__) . "/incl/blokket2/data/blokket2.sqlite"
+// Path to the SQLite database file
+$dbPath = dirname(__FILE__) . "/incl/blokket2/data/blokket2.sqlite";
 
 // Check if the url contains a querystring with a page-part.
 $p = null;
@@ -12,8 +12,9 @@ if(isset($_GET["p"]))
   $p = $_GET["p"];
 }
 
-// switchaway..
-$path = "incl/blokket";
+
+// Is the page known?
+$path = "incl/blokket2";
 $file = null;
 switch($p)
 {
@@ -65,8 +66,6 @@ switch($p)
     $file        = "default.php";
   }
 }
-
-
 ?>
 
 

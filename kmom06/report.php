@@ -95,7 +95,24 @@ $pageStyle = null;
       men kommer att byta till ett PHP framework som Laravel eller Codeigniter när kursen är över. Laravel känns mer spännande, men codeigniter är tydligen snabbare.. hmm..
   <p>
     Tips jag skulle ge en nybörjare i PHP är att läsa mycket kod. Kanske också att lära sig ett ytterligare språk parallellt, som C eller Ruby för att bättre förstå egensinigheterna hos PHP.
+  </p>
     <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom05/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom05/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom05/me.php</a>
+  <hr>
+
+  <h3>kmom06</h3>
+  <p>
+    Jag är ny för SQLite men inte SQL och PDO, och tyckte det var spännande med introduktionen här.
+  <p>
+    Hade ett tag ett problem med ett SQLSTATE[HY000] [14] fel inget av feltipsen på sqlite20 hjälpte med, och "bingade" internet efter svar.<br>
+    Först trodde jag det var ett fel med min php.ini fil, men det löste sig själv med att jag raderade och skapade en ny data dir. Vet ej vad felet var, men nu fungerar allt bra.
+  <p>
+    sqlite20 var bra. Jag prövade SQLite manager men föredrar SQLite database driver, jag redan hade på min dator för att experimentera med SQLite.<br>
+    Så länge det inte handlar om CSS så håller jag mig gärna borta från browsern när jag utvecklar. Det går snabbare och jag tycker själv det är roligare.
+    Förstås finns det ingen ersättning för att testa så jag har klickat runt en hel del denna gång och hoppas allt är rätt.
+  <p>
+    Om det är möjligt så använder jag gärna CLI för att skriva SQL. Och nu är jag för tillfället mycket exalterad över punknotationen i SQLite3-kommandon.
+  </p>
+    <a href="http://www.student.bth.se/~nibc13/htmlphp/kmom06/me.php" title="http://www.student.bth.se/~nibc13/htmlphp/kmom06/me.php">http://www.student.bth.se/~nibc13/htmlphp/kmom06/me.php</a>
   <hr>
 </article>
 </div>

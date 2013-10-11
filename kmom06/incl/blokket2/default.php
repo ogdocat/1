@@ -1,6 +1,7 @@
 <!-- Sidans/Dokumentets huvudsakliga innehåll -->
-<h1>Blokket, annonsplatsen</h1>
+<h1>Blokket2, annonsplatsen</h1>
 
-<p>Lägg upp dina annonser och hoppas att någon ser dem och köper...
+<p>Denna version av Blokket är integrerad med databasen SQLite och använder PHP PDO för att
+jobba mot databasen.
 </p>
 <p>Välj funktioner från menyn till vänster.</p>

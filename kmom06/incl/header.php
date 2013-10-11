@@ -59,7 +59,7 @@
     <a id="test-"   href="test.php">Testsida</a>
     <a id="style-"   href="style.php">Styles</a>
     <a id="blokket-"   href="blokket.php">Blokket</a>
-    <a id="blokket2-"   href="blokket.php">Blokket2</a>
+    <a id="blokket2-"   href="blokket2.php">Blokket2</a>
     <a id="source-" href="viewsource.php">Källkod</a>
   </nav>
 </header>
